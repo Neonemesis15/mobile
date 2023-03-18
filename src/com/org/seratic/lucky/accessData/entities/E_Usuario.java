@@ -30,84 +30,34 @@ public class E_Usuario extends Entity {
 
 	}
 
-	public String getIdUsuario() {
-		return idUsuario;
-	}
+	public String getIdUsuario() {return idUsuario;}
+	public void setIdUsuario(String idUsuario) {this.idUsuario = idUsuario;}
 
-	public void setIdUsuario(String idUsuario) {
-		this.idUsuario = idUsuario;
-	}
+	public String getLogin() {return login;}
+	public void setLogin(String login) {this.login = login;}
 
-	public String getLogin() {
-		return login;
-	}
+	public String getPass() {return pass;}
+	public void setPass(String pass) {this.pass = pass;}
+	
+	public String getCodigo_compania() {return codigo_compania;}
+	public void setCodigo_compania(String codigo_compania) {this.codigo_compania = codigo_compania;}
 
-	public void setLogin(String login) {
-		this.login = login;
-	}
+	public String getCod_equipo() {return cod_equipo;}
+	public void setCod_equipo(String cod_equipo) {this.cod_equipo = cod_equipo;}
 
-	public String getPass() {
-		return pass;
-	}
+	public String getCod_canal() {return cod_canal;}
+	public void setCod_canal(String cod_canal) {this.cod_canal = cod_canal;}
 
-	public void setPass(String pass) {
-		this.pass = pass;
-	}
+	public String getNombre() {return nombre;}
+	public void setNombre(String nombre) {this.nombre = nombre;}
 
-	public String getCodigo_compania() {
-		return codigo_compania;
-	}
-
-	public void setCodigo_compania(String codigo_compania) {
-		this.codigo_compania = codigo_compania;
-	}
-
-	public String getCod_equipo() {
-		return cod_equipo;
-	}
-
-	public void setCod_equipo(String cod_equipo) {
-		this.cod_equipo = cod_equipo;
-	}
-
-	public String getCod_canal() {
-		return cod_canal;
-	}
-
-	public void setCod_canal(String cod_canal) {
-		this.cod_canal = cod_canal;
-	}
-
-	public String getNombre() {
-		return nombre;
-	}
-
-	public void setNombre(String nombre) {
-		this.nombre = nombre;
-	}
-
-	public void setMsgUsuario(String msgUsuario) {
-		this.msgUsuario = msgUsuario;
-	}
-
-	public String getMsgUsuario() {
-		return msgUsuario;
-	}
-
-	public boolean isUsrValido() {
-		return usrValido;
-	}
-
-	public void setUsrValido(boolean usrValido) {
-		this.usrValido = usrValido;
-	}
-
-	public void setCod_perfil(String cod_perfil) {
-		this.cod_perfil = cod_perfil;
-	}
-
-	public String getCod_perfil() {
-		return cod_perfil;
-	}
+	public void setMsgUsuario(String msgUsuario) {this.msgUsuario = msgUsuario;}
+	public String getMsgUsuario() {return msgUsuario;}
+	
+	public boolean isUsrValido() {return usrValido;}
+	public void setUsrValido(boolean usrValido) {this.usrValido = usrValido;}
+	
+	public void setCod_perfil(String cod_perfil) {this.cod_perfil = cod_perfil;}
+	public String getCod_perfil() {return cod_perfil;}
 
 }
